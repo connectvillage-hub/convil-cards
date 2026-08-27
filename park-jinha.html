@@ -124,7 +124,7 @@
   </div>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script="" data-props="{&quot;$preview&quot;: {&quot;width&quot;: 430, &quot;height&quot;: 900}, &quot;personName&quot;: {&quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;박진하&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;직원 정보&quot;}, &quot;personTitle&quot;: {&quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;대표&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;직원 정보&quot;}, &quot;personPhone&quot;: {&quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;051-710-0916&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;직원 정보&quot;}, &quot;personEmail&quot;: {&quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;connectvillage@convil.net&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;직원 정보&quot;}, &quot;darkList&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: false, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;테마&quot;}}">
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;$preview&quot;: {&quot;width&quot;: 430, &quot;height&quot;: 900}, &quot;personName&quot;: {&quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;박진하&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;직원 정보&quot;}, &quot;personTitle&quot;: {&quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;대표&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;직원 정보&quot;}, &quot;personPhone&quot;: {&quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;010-4473-8009&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;직원 정보&quot;}, &quot;personEmail&quot;: {&quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;connectvillage@convil.net&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;직원 정보&quot;}, &quot;darkList&quot;: {&quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: false, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;테마&quot;}}">
 class Component extends DCLogic {
   state = { saving: false };
   cardRef = React.createRef();
@@ -133,7 +133,7 @@ class Component extends DCLogic {
     const dark = this.props.darkList ?? false;
     const name = this.props.personName ?? '박진하';
     const title = this.props.personTitle ?? '대표';
-    const phone = this.props.personPhone ?? '051-710-0916';
+    const phone = this.props.personPhone ?? '010-4473-8009';
     const email = this.props.personEmail ?? 'connectvillage@convil.net';
     return {
       personName: name, personTitle: title, personPhone: phone, personEmail: email,
