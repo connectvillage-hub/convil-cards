@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:김남준;;;;
+FN:김남준
+ORG:컨빌테크(주)
+TITLE:이사
+TEL;TYPE=CELL,VOICE:010-9365-3860
+EMAIL;TYPE=INTERNET,WORK:f3692000@naver.com
+URL:https://convil.net
+ADR;TYPE=WORK:;;동천로 116 한신밴빌딩 304호;부산광역시 부산진구;;;대한민국
+END:VCARD
