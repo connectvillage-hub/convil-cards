@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:신예안;;;;
+FN:신예안
+ORG:컨빌테크(주)
+TITLE:디자이너
+TEL;TYPE=CELL,VOICE:010-2779-1657
+EMAIL;TYPE=INTERNET,WORK:convilpro@gmail.com
+URL:https://convil.net
+ADR;TYPE=WORK:;;동천로 116 한신밴빌딩 304호;부산광역시 부산진구;;;대한민국
+END:VCARD

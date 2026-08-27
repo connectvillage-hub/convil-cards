@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:이아연;;;;
+FN:이아연
+ORG:컨빌테크(주)
+TITLE:총괄팀장
+TEL;TYPE=CELL,VOICE:010-7204-8009
+EMAIL;TYPE=INTERNET,WORK:connectvillage@convil.net
+URL:https://convil.net
+ADR;TYPE=WORK:;;동천로 116 한신밴빌딩 304호;부산광역시 부산진구;;;대한민국
+END:VCARD
